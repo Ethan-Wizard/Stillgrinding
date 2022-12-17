@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    margin-right: 450px;}
+    
+li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(107, 133, 247); 
+    font-weight: normal;
+}
+/* the navigation tabs will use this*/
+a {
+    color: rgb(107, 133, 247);
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+    font-weight: bold; }
+
+.listheadings {font-weight: bold;font-style: normal;}
+.justify {text-align: justify;}
+
+
+.homewizardbg {
+    background: url(../images/Home_wizard_backgroud.jpeg) no-repeat center fixed; 
+    background-size: cover;
+    
+ }
+.wizardspellsbg {background: url(../images/wizard_spells_background.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+/* creator's background image */
+.cbg {background: url(../images/Creator_background.jpg) no-repeat center fixed;
+    background-size: cover;}
+
+/* all images that need rounded corners should use this */
+.rcorners {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 300px;
+    height: 225px; }
+
+  /* the creator photo is represented here, due to its abnormal 
+  proportions, it could not use the regular rcorners */
+  .cphoto {  
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 250px;}
+
+.mbposition {
+    top: 50px;
+    left: 50px;
+    right: 450px;
+}
+
+.fpostition { 
+    bottom: 28px;
+    height: fit-content;
+    left: 5px;
+    right: 450px;
+}

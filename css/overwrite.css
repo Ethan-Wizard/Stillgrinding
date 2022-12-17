@@ -1,0 +1,16 @@
+.li { 
+    text-align: left;
+}
+
+.rcorners { border-radius: 25px;
+    background: #343a40;
+    padding: 20px; 
+    width: 750px;
+    height: 250px; 
+
+}
+
+.centerimg {
+    position: center;
+    text-align: center
+}
